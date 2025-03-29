@@ -1,0 +1,326 @@
+/* 1. For Large Screens (1200px and below) */
+@media (max-width: 1200px) {
+    .hero-content-info h1 {
+      font-size: 64px;
+    }
+  
+    .hero-image h2 {
+      font-size: 100px;
+    }
+  
+    .popular-foods_cards.active-card {
+      min-width: 300px;
+    }
+  }
+  
+  /* 2. For Tablets & Small Desktops (992px and below) */
+  @media (max-width: 992px) {
+    .header_nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header_menu {
+      display: none;
+    }
+  
+    .header_menu-mobile {
+      display: flex;
+    }
+  
+    .hero {
+      flex-direction: column;
+    }
+  
+    .hero-image img {
+      width: 100%;
+    }
+  
+    .hero-content-info {
+      padding: 32px;
+    }
+  
+    .hero-content-info h1 {
+      font-size: 48px;
+    }
+  
+    .hero-content_buttons {
+      margin: 20px 0;
+      gap: 20px;
+    }
+  
+    .about-us {
+      flex-direction: column;
+    }
+  
+    .about-us_image div {
+      padding: 24px;
+    }
+  
+    .popular-foods {
+      padding: 48px;
+    }
+  
+    .popular-foods_filters {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  /* 3. For Tablets & Large Mobiles (768px and below) */
+  @media (max-width: 768px) {
+    .hero-image h2 {
+      font-size: 80px;
+    }
+  
+    .hero-content-info h1 {
+      font-size: 40px;
+    }
+  
+    .hero-content-info p {
+      font-size: 16px;
+    }
+  
+    .hero-content_buttons {
+      gap: 16px;
+    }
+  
+    .hero-content_testimonial {
+      padding: 24px;
+      flex-direction: column;
+    }
+  
+    .about-us_content {
+      padding: 32px;
+    }
+  
+    .popular-foods_title {
+      font-size: 42px;
+    }
+  
+    .popular-foods_cards.active-card {
+      min-width: 260px;
+    }
+  
+    .popular-foods_cards-title {
+      font-size: 20px;
+    }
+    .subscription {
+        padding: 40px;
+    }
+
+    .subscription h2 {
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+    .subscription p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 24px;
+    }
+
+    .subscription_form {
+        min-width: 100%;
+        flex-direction: column;
+        padding: 12px;
+        border-radius: 32px;
+    }
+
+    .subscription_form input {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .subscription_form button {
+        padding: 16px;
+        min-width: 100%;
+        font-size: 14px;
+        border-radius: 32px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        gap: 16px;
+    }
+
+    .footer_logo {
+        font-size: 20px;
+    }
+
+    .footer ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .footer ul:last-child {
+        gap: 16px;
+    }
+
+    .footer_social {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footer_social li {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer_social li img {
+        width: 50%;
+        height: 50%;
+    }
+  }
+  
+  /* 4. For Mobile Devices (576px and below) */
+  @media (max-width: 576px) {
+    .header_logo h4 {
+      font-size: 20px;
+    }
+  
+    .hero-content-info {
+      padding: 16px;
+    }
+  
+    .hero-content-info h1 {
+      font-size: 32px;
+    }
+  
+    .hero-image h2 {
+      font-size: 60px;
+    }
+  
+    .about-us_image div {
+      padding: 16px;
+    }
+  
+    .popular-foods_filters {
+      gap: 12px;
+    }
+  
+    .popular-foods_button {
+      padding: 16px 24px;
+    }
+  }
+  
+  /* 5. For Small Mobile Devices (375px and below) */
+  @media (max-width: 375px) {
+    .hero-content-info h1 {
+      font-size: 28px;
+    }
+  
+    .hero-image h2 {
+      font-size: 50px;
+    }
+  
+    .hero-content_buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .popular-foods_cards {
+      padding: 24px;
+    }
+  
+    .popular-foods_cards-title {
+      font-size: 18px;
+    }
+  }
+
+@media screen and (max-width: 1024px) {
+    .trending-sushi {
+      flex-direction: column;
+    }
+  
+    .trending-drinks {
+      flex-direction: column-reverse;
+    }
+  
+    .trending_image {
+      width: 100%;
+      background-size: cover;
+    }
+  
+    .trending_discover {
+      display: none;
+    }
+  
+    .trending_arrow {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .trending_image img {
+      width: 70%;
+      height: 70%;
+    }
+  
+    .trending_content {
+      padding: 32px;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    .subscription {
+        padding: 32px;
+    }
+
+    .subscription h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .subscription p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 16px;
+    }
+
+    .subscription_form {
+        padding: 10px;
+        border-radius: 24px;
+    }
+
+    .subscription_form input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .subscription_form button {
+        padding: 14px;
+        font-size: 14px;
+        border-radius: 24px;
+    }
+
+    .footer {
+        padding: 16px;
+        gap: 12px;
+    }
+
+    .footer_logo {
+        font-size: 18px;
+    }
+
+    .footer ul {
+        gap: 16px;
+    }
+
+    .footer_social li {
+        width: 32px;
+        height: 32px;
+    }
+
+    .footer_social li img {
+        width: 55%;
+        height: 55%;
+    }
+}
+
+
+
